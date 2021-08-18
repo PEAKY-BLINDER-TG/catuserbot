@@ -30,7 +30,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Kolkata")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/sandy1709/catuserbot.git"
+        "UPSTREAM_REPO", "https://github.com/PEAKY-BLINDER-TG/catuserbot"
     )
 
     # BASIC and MAIN CONFIG VARS
@@ -62,7 +62,7 @@ class Config(object):
     TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "catuserbot")
     # for custom thumb image set this with your required thumb telegraoh link
     THUMB_IMAGE = os.environ.get(
-        "THUMB_IMAGE", "https://telegra.ph/file/ca95524e4734b0d5461b5.jpg"
+        "THUMB_IMAGE", "https://telegra.ph//file/fb5c81add3cef59c2719c.jpg"
     )
     # specify NO_LOAD with plugin names for not loading in userbot
     NO_LOAD = [x for x in os.environ.get("NO_LOAD", "").split()]
